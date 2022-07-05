@@ -4,9 +4,11 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"f": "700_ml.optimization.himmelblau.ipynb",
          "grad_f": "700_ml.optimization.himmelblau.ipynb",
-         "hess_f": "700_ml.optimization.himmelblau.ipynb"}
+         "hess_f": "700_ml.optimization.himmelblau.ipynb",
+         "sample": "800_sampling.box_muller.ipynb"}
 
-modules = ["ml/optimization/himmelblau.py"]
+modules = ["ml/optimization/himmelblau.py",
+           "ml/sampling/box_muller.py"]
 
 doc_url = "https://blackcherry88.github.io/ml/"
 
