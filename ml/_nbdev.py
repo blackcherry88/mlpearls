@@ -2,12 +2,17 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"f": "700_ml.optimization.himmelblau.ipynb",
-         "grad_f": "700_ml.optimization.himmelblau.ipynb",
-         "hess_f": "700_ml.optimization.himmelblau.ipynb",
+index = {"himmelblau": "700_ml.optimization.himmelblau.ipynb",
+         "grad_himmelblau": "700_ml.optimization.himmelblau.ipynb",
+         "hess_himmelblau": "700_ml.optimization.himmelblau.ipynb",
+         "line_search": "710_ml.optimization.bfgs.ipynb",
+         "bfgs": "710_ml.optimization.bfgs.ipynb",
+         "naive_grad": "710_ml.optimization.grad.ipynb",
          "sample": "800_sampling.box_muller.ipynb"}
 
 modules = ["ml/optimization/himmelblau.py",
+           "ml/optimization/bfgs.py",
+           "ml/optimization/grad.py",
            "ml/sampling/box_muller.py"]
 
 doc_url = "https://blackcherry88.github.io/ml/"
